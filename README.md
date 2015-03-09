@@ -12,5 +12,5 @@ requirehit
 
 ### Is requirehit stable?
 
-Which it was. It is on R&D state. You could contribute by placing issues with ideas for our specs. You could track for first usable release by giving your :+1: into issue #2 .
+Wish it was. It is on R&D state. You could contribute by placing issues with ideas for our specs. You could track for first usable release by giving your :+1: into issue #2 .
 
