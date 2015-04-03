@@ -201,7 +201,7 @@ fact that we can checkup for bugs before release a `beta`.
 
 #### Bulk requiring
 ```js
-    var modules = require( [ 'one', 'two', 'three' ], function ( one, two, three ) {
+    require( [ 'one', 'two', 'three' ], function ( one, two, three ) {
         // one will be One
         // two will be Two
         // three will be Three
@@ -209,7 +209,7 @@ fact that we can checkup for bugs before release a `beta`.
 
     // or
 
-    var modules = require( [ 'one', 'two', 'three' ], function ( modules ) {
+    require( [ 'one', 'two', 'three' ], function ( modules ) {
         // module[0] or module.one will be One
         // module[1] o module.two will be Two
         // module[2] o module.three will be Three
