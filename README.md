@@ -186,6 +186,40 @@ fact that we can checkup for bugs before release a `beta`.
 ```
 
 
+
+### Callback way (valid for required and optional modules)
+
+#### One by one
+```js
+    // ...
+
+    require( 'one', function ( One ) {
+       // One 
+    });
+
+```
+
+#### Bulk requiring
+```js
+    var modules = require( [ 'one', 'two', 'three' ], function ( one, two, three ) {
+        // one will be One
+        // two will be Two
+        // three will be Three
+    });
+
+    // or
+
+    var modules = require( [ 'one', 'two', 'three' ], function ( modules ) {
+        // module[0] or module.one will be One
+        // module[1] o module.two will be Two
+        // module[2] o module.three will be Three
+    });
+```
+
+This seems `AMD` pattern right? :)
+
+
+
 ### Module way (valid for required and optional modules)
 
 This method is available for those who want to handle module loading manually or
@@ -209,8 +243,6 @@ out of promise or callback scopes ( such as observers and so on ).
     // When `module.loaded` turns truth
     // `module.exports` will be One
 ```
-
-This seems `AMD` pattern right? :)
 
 
 
