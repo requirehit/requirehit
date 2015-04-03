@@ -296,15 +296,7 @@ requirehit test
 1.1 - Toda a lógica do `requirehit`.
 1.2 - Módulos base necessários para o funcionamento do `requirehit` no lado do cliente:
 1.2.1 - `bluebird` - `Promise`
-1.2.2 - `crypto`
-1.2.3 - `http`
-1.2.4 - `request` - `Xhr`
-1.2.5 - `bluebird`
-1.2.6 - `bluebird`
-1.2.7 - `bluebird`
-1.2.8 - `bluebird`
-1.2.9 - `bluebird`
-
+1.2.2 - `request` - `Xhr`
 
 ```bash
 
