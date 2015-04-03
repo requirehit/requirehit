@@ -3,6 +3,8 @@ requirehit
 
 a spetacular **web package manager** and a **cross-browser nodejs API provider**
 
+### Work in Progress
+
 Instead of using a mix of `browserify`, `bower` or other package manager, we **ported** and **enhanced** node.js API to browser-side.
 
 # What does it means?
