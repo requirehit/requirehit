@@ -1,6 +1,8 @@
 requirehit
 ==========
 
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+
 a spetacular **web package manager** and a **cross-browser nodejs API provider**
 
 ### Work in Progress
