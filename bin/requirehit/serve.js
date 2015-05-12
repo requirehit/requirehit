@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-'use strict';
-
 var RequireHit = require( '../../index' ),
     Util = require( 'findhit-util' );
 

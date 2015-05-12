@@ -1,11 +1,9 @@
 #!/usr/bin/env node
 
-'use strict';
-
 var RequireHit = require( '../../index' ),
     Util = require( 'findhit-util' )
 
-    package = require( '../package' ),
+    package = require( '../../package' ),
 
     prompt = require( 'prompt' ),
     Util = require( 'findhit-util' ),
